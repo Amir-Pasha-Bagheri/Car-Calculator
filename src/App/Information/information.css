@@ -1,0 +1,16 @@
+.car-information{
+    background-color: rgb(252, 222, 170);
+    width: 80%;
+    margin: 0 6% 0 6%;
+    border-radius: 5px;
+    padding: 2% 4%;
+}
+.info-title span{
+    background-color: rgb(250, 236, 212);
+    padding: .3rem .5rem;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.empty-input{
+    margin: 100px;
+}
