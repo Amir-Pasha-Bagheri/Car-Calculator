@@ -1,0 +1,48 @@
+.default-navbar{
+    position: fixed;
+    width: 100%;
+    height: 120px;
+    background-color: brown;
+    bottom: -10%;
+    transition: 0.2s;
+}
+.nav-button{
+    text-align: center;
+    position: absolute;
+    background-color: brown;
+    border-radius: 5px;
+    width: 40px;
+    top: -10px;
+    left: 50%;
+    transform: translate(-50%);
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.nav-button:hover{background-color: rgb(109, 26, 26);}
+.link-to-other-page{
+    position: relative;
+    border-radius: 5px;
+    border: none;
+    padding: .5rem;
+    top: 40%;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-top: 4px;
+    transition: .2s;
+}
+.link-to-other-page:hover{
+    background-color: gainsboro;
+}
+.disabled{
+    opacity: .5;
+    cursor: default;
+    background-color: gainsboro;
+}
+.open{
+    bottom: 0;
+}
+@media only screen and (min-height: 1000px){
+    .default-navbar{bottom: -8%;}
+    .open{bottom: 0%;}
+}
