@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Router } from 'react-router-dom'
+import history from "./history";
 import './index.css';
 import Homepage from './App/Home/homapage';;
 
 ReactDOM.render(
-  <React.StrictMode>
+  <Router history={history}>
     <Homepage />
-  </React.StrictMode>,
+  </Router>,
   document.getElementById('root')
 );
