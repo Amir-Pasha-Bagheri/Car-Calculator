@@ -13,7 +13,7 @@ export default function ReturnCarInformation({selectedCarInfo}) {
             <p className="info-title"><span>Weight (kg)</span> {selectedCarInfo.weight}</p>
             <p className="info-title"><span>Fuel Consumtion (L/100km)</span> {selectedCarInfo.fuel}</p>
             <p className="info-title"><span>Tank Volume (L)</span> {selectedCarInfo.tankVolume}</p>
-            <p className="info-title"><span>Price (Rial)</span> {selectedCarInfo.price}</p>
+            <p className="info-title"><span>Price (Toman)</span> {selectedCarInfo.price}</p>
         </div>
     )
 }

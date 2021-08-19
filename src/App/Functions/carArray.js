@@ -7,7 +7,7 @@ export const cars = [
         weight:850,         //kg
         fuel:6.8,           //L/100km
         tankVolume: 37,     //L
-        price : 120000000   //Rial
+        price : 120000000   //Toman
     },
     {
         name:"Peugeot 405",
