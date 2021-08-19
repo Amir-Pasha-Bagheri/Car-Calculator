@@ -17,11 +17,11 @@ export default function Homapage() {
                 {cars.map(car=><option key={car.name} value={car.name}>{car.name}</option>)}
             </datalist>
 
-            <button className="confirm-car" onClick={()=>setSelectedCar(selectedTagValue.current.value===''?null:selectedTagValue.current.value)}>Confirm Car</button>
+            <button className="confirm-car" onClick={()=>setSelectedCar(selectedTagValue.current.value===''?null:selectedTagValue.current.value.trim())}>Confirm Car</button>
             
             <Information car={selectedCar} />
 
-            <Navbar/>
+            <Navbar component="Compare Cars" path="/compare-cars"/>
 
         </React.Fragment>
     )
