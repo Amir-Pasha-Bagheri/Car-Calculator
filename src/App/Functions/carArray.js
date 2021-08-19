@@ -23,7 +23,7 @@ export const cars = [
         name:"Samand",
         engineVolume:1800,
         acceleration:14.5,
-        maxSpeed:845, 
+        maxSpeed:185, 
         weight:1220, 
         fuel:8, 
         tankVolume: 70, 
