@@ -1,0 +1,61 @@
+.first-car-select-tag{
+    margin: 4rem 2rem 2rem 2rem;
+    width: 40%;
+    border: none;
+    background-color: beige;
+    border-radius: 5px;
+    padding: .5rem;
+    outline: none;
+    font-family:  monospace;
+}
+.second-car-select-tag{
+    margin: 0 2rem 2rem 2rem;
+    width: 40%;
+    border: none;
+    background-color: beige;
+    border-radius: 5px;
+    padding: .5rem;
+    outline: none;
+    font-family:  monospace;
+}
+.confirm-compare-car{
+    border: none;
+    cursor: pointer;
+    padding: .5rem;
+    border-radius: 5px;
+    transition: 0.2s;
+    width: 20%;
+    margin-left: 2rem;
+}
+.confirm-compare-car:hover{
+    background-color: rgb(179, 179, 179);
+}
+.compare-table{
+    width: 50%;
+    margin-top: 90px;
+    margin-bottom: 200px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #ddd;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.compare-table , .compare-tr td{
+    border-collapse: collapse;
+    border: .01rem solid white;
+    padding: .4rem 1rem 11px 1rem;
+}
+.compare-tr td:first-child{
+    font-weight: bold;
+    background-color: burlywood;
+}
+.compare-tr:first-child td:first-child{border-top-left-radius: 10px;}
+.compare-tr:last-child td:first-child{border-bottom-left-radius: 10px;}
+
+.compare-tr:first-child td:nth-child(2),.compare-tr:first-child td:nth-child(3){color: brown;}
+
+.more{color: green;}
