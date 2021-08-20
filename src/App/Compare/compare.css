@@ -33,7 +33,7 @@
 .compare-table{
     width: 50%;
     margin-top: 90px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     position: relative;
     left: 50%;
     transform: translate(-50%);
@@ -59,3 +59,29 @@
 .compare-tr:first-child td:nth-child(2),.compare-tr:first-child td:nth-child(3){color: brown;}
 
 .more{color: green;}
+
+.compare-table-cost{
+    width: 50%;
+    margin-top: 90px;
+    margin-bottom: 100px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #ddd;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.compare-table-cost , .compare-tr-cost td{
+    border-collapse: collapse;
+    border: .01rem solid white;
+    padding: .4rem 1rem 11px 1rem;
+}
+.compare-tr-cost td:first-child{
+    font-weight: bold;
+    background-color: burlywood;
+}
+.compare-tr-cost:first-child td:first-child{border-top-left-radius: 10px;}
+.compare-tr-cost td:first-child{border-bottom-left-radius: 10px;}
