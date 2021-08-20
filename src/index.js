@@ -3,12 +3,11 @@ import ReactDOM from 'react-dom';
 import { Router } from 'react-router-dom'
 import history from "./history";
 import './index.css';
-//import Homepage from './App/Home/homepage';
-import Compare from './App/Compare/compare'
+import Routes from './App/Routes/routes'
 
 ReactDOM.render(
   <Router history={history}>
-    <Compare />
+    <Routes />
   </Router>,
   document.getElementById('root')
 );
